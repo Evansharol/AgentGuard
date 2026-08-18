@@ -1,0 +1,6 @@
+EmployeeID,FullName,Department,Salary,Bonus,Status,BankRoutingNumber
+EMP01,Sarah Connor,Security Operations,95000,12000,Active,021000021
+EMP02,John Matrix,Special Operations,110000,25000,Active,121000358
+EMP03,Ellen Ripley,Logistics & Freight,88000,8000,Active,031000053
+EMP04,Marty McFly,Research & Development,72000,5000,Active,071000013
+EMP05,Luke Skywalker,Pilot Engineering,105000,18000,Active,081000032

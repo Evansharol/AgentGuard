@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite+aiosqlite:///./flyyai_governance.db
+      - SECRET_KEY=flyyai-secret-governance-key-2026
+    volumes:
+      - flyyai_data:/app/data
+
+volumes:
+  flyyai_data:
