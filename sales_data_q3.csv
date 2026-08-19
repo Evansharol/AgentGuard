@@ -1,9 +1,0 @@
-TransactionID,CustomerName,Department,Region,Revenue,Cost,Profit,CustomerEmail
-TX1001,Alice Johnson,Enterprise Sales,North America,15200.50,8400.00,6800.50,alice.j@corp.com
-TX1002,Bob Martinez,Retail Operations,Europe,4350.00,2100.00,2250.00,bob.m@retail.eu
-TX1003,Carol Zhang,Cloud Solutions,Asia Pacific,28900.00,14500.00,14400.00,carol.z@cloudtech.cn
-TX1004,David Smith,Enterprise Sales,North America,9800.25,5100.00,4700.25,dsmith@enterprises.com
-TX1005,Emma Watson,Consulting,United Kingdom,12400.00,6200.00,6200.00,emma.w@advisory.co.uk
-TX1006,Frank Miller,Retail Operations,North America,3100.00,1550.00,1550.00,frank.m@shopnet.org
-TX1007,Grace Hopper,Cloud Solutions,North America,45000.00,21000.00,24000.00,ghopper@navytech.gov
-TX1008,Henry Ford,Manufacturing,North America,18750.75,11200.00,7550.75,henry@motorcorp.com
