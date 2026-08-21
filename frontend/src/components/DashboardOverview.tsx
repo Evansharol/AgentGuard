@@ -181,7 +181,7 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
                   contentStyle={{ backgroundColor: '#0f172a', borderColor: '#334155', borderRadius: '8px', fontSize: '12px' }} 
                   itemStyle={{ color: '#f3f4f6' }}
                 />
-                <Bar dataKey="count" radius={[6, 6, 0, 0]}>
+                <Bar dataKey="count" radius={[6, 6, 0, 0]} minPointSize={3}>
                   {chartData.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={entry.color} />
                   ))}

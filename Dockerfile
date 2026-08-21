@@ -4,7 +4,7 @@ WORKDIR /app/frontend
 COPY frontend/package*.json ./
 RUN npm install
 COPY frontend ./
-RUN npm run build
+RUN chmod -R +x node_modules/.bin && npm run build
 
 # Stage 2: Python Backend & Final Runtime Container
 FROM python:3.11-slim
