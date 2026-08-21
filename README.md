@@ -2,6 +2,12 @@
 
 > An in-line runtime security firewall and governance engine for autonomous AI agents. Intercepts tool calls, verifies behavioral boundaries, halts unauthorized actions, enforces tiered warning zones, and manages human-in-the-loop approvals.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-agentguard--tiol.onrender.com-success?style=for-the-badge&logo=render)](https://agentguard-tiol.onrender.com/)
+[![API Docs](https://img.shields.io/badge/Swagger%20Docs-FastAPI-blue?style=for-the-badge&logo=fastapi)](https://agentguard-tiol.onrender.com/docs)
+
+🔗 **Try Live App**: [https://agentguard-tiol.onrender.com/](https://agentguard-tiol.onrender.com/)  
+📖 **Interactive API Docs**: [https://agentguard-tiol.onrender.com/docs](https://agentguard-tiol.onrender.com/docs)
+
 ---
 
 ## 💡 Executive Summary & Problem Understanding
