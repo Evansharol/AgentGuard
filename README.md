@@ -73,6 +73,7 @@ Research into AI agent security and runtime escapes reveals a predictable multi-
 | **5. Exfiltration / Overuse** | Resource exhaustion or excessive financial transactions | Volume blips dismissed as normal load | Enforces **Configurable Guardrail Thresholds (80%, 90%, 100%)** and monetary limits. |
 
 ---
+![Workflow](https://github.com/Evansharol/AgentGuard/blob/main/Workflow.png)
 
 ## 🚀 Key Features
 
