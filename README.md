@@ -195,7 +195,7 @@ Navigate to **Test Lab** $\rightarrow$ **Pre-configured Test Scenarios**:
 | Decision | Approach Chosen | Rationale & Trade-off |
 | :--- | :--- | :--- |
 | **Interception Point** | In-Line Application Proxy | **Chosen**: Evaluates tool calls before execution. **Trade-off**: Minimal latency overhead per tool call (~2–5ms), but prevents damage before it occurs. |
-| **Policy Model** | Explicit Whitelist (Negative by Default) | **Chosen**: Any tool, data source, or action verb not explicitly in the profile is denied. **Trade-off**: Requires explicit profiling, but eliminates false negatives. |
+| **Policy Model** | Explicit Whitelist (Negative by Default) | **Chosen**: Any tool, data source, or action verb not explicitly in the profile is denied. **Trade-off**: Requires more configuration because every permitted tool, data source, and action must be explicitly defined.|
 | **Response Model** | Tiered Severity Escalation | **Chosen**: Low severity $\rightarrow$ Notify; Medium/High $\rightarrow$ HITL Freeze; Critical $\rightarrow$ Immediate Auto-Block. Prevents alert fatigue while securing critical assets. |
 | **Persistence** | Async SQLAlchemy + RDBMS | **Chosen**: Compatible with SQLite for zero-config local testing and PostgreSQL for enterprise production. |
 
